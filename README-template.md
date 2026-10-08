@@ -105,6 +105,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - [www.youtube.com/watch?v=_gKEUYarehE](https://www.youtube.com/watch?v=_gKEUYarehE)- create dark mode switch with HTML, CSS, Javascript
 - [www.youtube.com/watch?v=S-T9XoCMwt4](https://www.youtube.com/watch?v=S-T9XoCMwt4) - CSS Dark Mode toggle Button from scratch in 6 minutes
+- [www.youtube.com/watch?v=ONOg9JSV7iU](https://www.youtube.com/watch?v=ONOg9JSV7iU) - How to Make Toggle Button Using HTML & CSS
+- [www.youtube.com/watch?v=Kxv7GIDK9tg](https://www.youtube.com/watch?v=Kxv7GIDK9tg) - Build An Easy Light/Dark Mode Toggle With CSS & JavaScript
 
 ### AI Collaboration
 

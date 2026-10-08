@@ -14,43 +14,60 @@
     <title>Frontend Mentor | Frontend quiz app</title>
   </head>
   <body>
-    <!-- Quiz menu start -->
-    <article class="main-area">
+    <header class="header">
+      <div class="topic no-visibility">
+        <img src="./assets/images/icon-html.svg" alt="" class="img-icon">
+        <p class="screen--menu__options__text">HTML</p>
+      </div>
       <div class="theme-control">
-        <img src="./assets/images/icon-sun-dark.svg" alt="sun switch" />
+        <img src="./assets/images/icon-sun-dark.svg" alt="" />
         <input type="checkbox" id="darkmode-toggle" />
         <label for="darkmode-toggle" class="toggle"></label>
-        <img src="./assets/images/icon-moon-dark.svg" alt="moon switch" />
+        <img src="./assets/images/icon-moon-dark.svg" alt="" />
       </div>
-      <div class="main-menu">
-        <div class="hero">
-          <h1 class="title">Welcome ot the <span class="title-bold">Frontend Quiz!</span></h1>
-          <p class="sub-title">Pick a subject to get started.</p>
+    </header>
+    <main>
+      <section class="screen screen--menu">
+        <div class="screen__inner--text">
+          <h1 class="screen__inner--text__title">
+            Welcome to the
+            <span class="screen__innner--text__title-bold">Frontend Quiz!</span>
+          </h1>
+          <p class="screen__inner--text__subtitle">
+            Pick a subject to get started
+          </p>
         </div>
-        <div class="menu">
+        <div class="screen--menu__options">
           <div class="option">
-            <img src="./assets/images/icon-html.svg" alt="html icon" class="option-img-html" />
-            <h2 class="option__text">HTML</h2>
-          </div>
-          <div class="option">
-            <img src="./assets/images/icon-css.svg" alt="css icon" class="option-img-css"/>
-            <h2 class="option__text">CSS</h2>
-          </div>
-          <div class="option">
-            <img src="./assets/images/icon-js.svg" alt="js icon" class="option-img-js"/>
-            <h2 class="option__text">Javascript</h2>
+            <img
+              src="./assets/images/icon-html.svg"
+              alt=""
+              class="img-icon html-icon"
+            />
+            <p class="screen--menu__options__text">HTML</p>
           </div>
           <div class="option">
             <img
-              src="./assets/images/icon-accessibility.svg"
-              alt="Accessibility icon" class="option-img-access"
+              src="./assets/images/icon-css.svg"
+              alt=""
+              class="img-icon css-icon"
             />
-            <h2 class="option__text">Accessibility</h2>
+            <p class="screen--menu__options__text">CSS</p>
+          </div>
+          <div class="option">
+            <img
+              src="./assets/images/icon-js.svg"
+              alt=""
+              class="img-icon js-icon"
+            />
+            <p class="screen--menu__options__text">Javascript</p>
+          </div>
+          <div class="option">
+            <img src="./assets/images/icon-accessibility.svg" alt="" class="img-icon access-icon"/>
+            <p class="screen--menu__options__text">Accessibility</p>
           </div>
         </div>
-      </div>
-    </article>
-
-    <!-- Quiz menu end -->
+      </section>
+    </main>
   </body>
 </html>
