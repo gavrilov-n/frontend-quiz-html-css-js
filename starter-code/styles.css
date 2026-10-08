@@ -90,7 +90,7 @@ body {
 .option {
   display: flex;
   align-items: center;
-  gap: var(--spacing-200);
+  gap: var(--spacing-500);
 }
 
 /* Visually hidden but keyboard-focusable */
@@ -182,35 +182,33 @@ body {
 }
 
 .option {
-    background-color: white;
-    padding: 1.6rem;
-    border-radius: 1rem;
-    box-shadow: 0.2rem 0.2rem 2rem rgba(0,0,0,0.1);
+  background-color: white;
+  padding: 1.6rem;
+  border-radius: 1.5rem;
+  box-shadow: 0.2rem 0.2rem 2rem rgba(0, 0, 0, 0.1);
 }
-
-
 
 /* TOPIC ICONS */
 .img-icon {
-    width: 4rem;
-    height: 4rem;
-    border-radius: 0.5rem
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.5rem;
 }
 
 .html-icon {
-    background-color: var(--orange-50);
+  background-color: var(--orange-50);
 }
 
 .css-icon {
-    background-color: var(--green-100);
+  background-color: var(--green-100);
 }
 
 .js-icon {
-    background-color: var(--blue-100);
+  background-color: var(--blue-100);
 }
 
 .access-icon {
-    background-color: var(--purple-100);
+  background-color: var(--purple-100);
 }
 
 .no-visibility {
@@ -222,7 +220,44 @@ body {
   body {
     background-image: url(./assets/images/pattern-background-tablet-light.svg);
   }
-  
+  .header {
+    padding-top: var(--spacing-800);
+    padding-bottom: var(--spacing-100);
+    padding-right: var(--spacing-1600);
+    padding-left: var(--spacing-1600);
+    margin-bottom: 0px;
+  }
+  .toggle {
+    width: 48px;
+    height: 28px;
+  }
+  .toggle::before {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.6rem;
+  }
+  .theme-control input:checked + .toggle::before {
+    transform: translateX(20px);
+  }
+  .screen--menu {
+    padding: 0px var(--spacing-1600)
+  }
+  .screen__inner--text__title {
+    font-size: 64px;
+  }
+  .screen__inner--text__subtitle {
+    font-size: 20px;
+    line-height: 150%;
+  }
+  .screen__inner--text {
+    margin-bottom: var(--spacing-800);
+  }
+  .screen--menu__options__text {
+    font-size: 28px;
+  }
+  .screen--menu__options {
+    gap: 36px;
+  }
 }
 @media (min-width: 1440px) {
   body {
