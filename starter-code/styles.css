@@ -95,13 +95,11 @@ MAIN MENU MOBILE
   margin-bottom: var(--spacing-400);
 }
 
-/* HEADER MOBILE */
-.topic,
-.option {
-  padding: var(--spacing-500);
+/* HEADER TOPIC (current subject indicator) */
+.topic {
   display: flex;
   align-items: center;
-  gap: var(--spacing-500);
+  gap: var(--spacing-200);
 }
 
 /* Visually hidden but keyboard-focusable */
@@ -202,6 +200,9 @@ THEME TOGGLE AREA
   padding: 1.6rem;
   border-radius: 1.5rem;
   box-shadow: 0.2rem 0.2rem 2rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-500);
 }
 
 /* TOPIC ICONS */
@@ -363,7 +364,6 @@ MAIN MENU TABLET
     height: 54px;
     border-radius: 0.5rem;
   }
-  .topic,
   .option {
     padding: var(--spacing-200);
     display: flex;
