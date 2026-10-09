@@ -15,8 +15,8 @@
   </head>
   <body>
     <header class="header">
-      <div class="topic no-visibility">
-        <img src="./assets/images/icon-html.svg" alt="" class="img-icon">
+      <div class="topic">
+        <img src="./assets/images/icon-html.svg" alt="" class="img-icon" />
         <p class="screen--menu__options__text">HTML</p>
       </div>
       <div class="theme-control">
@@ -27,11 +27,11 @@
       </div>
     </header>
     <main>
-      <section class="screen screen--menu">
+      <section class="screen screen--menu no-display">
         <div class="screen__inner--text">
           <h1 class="screen__inner--text__title">
             Welcome to the
-            <span class="screen__innner--text__title-bold">Frontend Quiz!</span>
+            <span class="screen__inner--text__title-bold">Frontend Quiz!</span>
           </h1>
           <p class="screen__inner--text__subtitle">
             Pick a subject to get started
@@ -63,10 +63,40 @@
             <p class="screen--menu__options__text">Javascript</p>
           </div>
           <div class="option">
-            <img src="./assets/images/icon-accessibility.svg" alt="" class="img-icon access-icon"/>
+            <img
+              src="./assets/images/icon-accessibility.svg"
+              alt=""
+              class="img-icon access-icon"
+            />
             <p class="screen--menu__options__text">Accessibility</p>
           </div>
         </div>
+      </section>
+      <section class="screen screen-questions">
+        <div class="question-section">
+          <p class="screen__inner--text__subtitle">Question <span id="question-nr">6</span> of 10</p>
+          <div class="question">What does HTML stand for?</div>
+          <div class="progress-bar"></div>
+        </div>
+        <div class="answer-section">
+          <div class="option">
+            <div class="img-icon answer-text background-grey">A</div>
+            <div class="answer">Hyper Trainer Marking Language</div>
+          </div>
+          <div class="option">
+            <div class="img-icon answer-text background-grey">B</div>
+            <div class="answer">Hyper Text Marketing Language</div>
+          </div>
+          <div class="option">
+            <div class="img-icon answer-text background-grey">C</div>
+            <div class="answer">Hyper Text Markup Language</div>
+          </div>
+          <div class="option">
+            <div class="img-icon answer-text background-grey">D</div>
+            <div class="answer">Hyper Text Markup Leveler</div>
+          </div>
+        </div>
+        <button class="btn">Submit Answer</button>
       </section>
     </main>
   </body>
