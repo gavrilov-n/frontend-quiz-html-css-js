@@ -191,7 +191,7 @@ THEME TOGGLE AREA
 .screen--menu__options__text {
   color: var(--blue-950);
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 120%;
 }
 
@@ -248,7 +248,7 @@ THEME TOGGLE AREA
 ========================================================================== */
 
 .question {
-  font-size: 3.6rem;
+  font-size: 2rem;
   line-height: 120%;
   color: var(--blue-950);
   margin-bottom: var(--spacing-200);
@@ -278,7 +278,7 @@ THEME TOGGLE AREA
 }
 
 .progress-bar::before {
-    position: absolute;
+  position: absolute;
   content: "";
   background-color: var(--orange-400);
   width: 12rem;
@@ -289,6 +289,7 @@ THEME TOGGLE AREA
 }
 
 .btn {
+  font-family: 'Rubik',sans-serif;
   border: none;
   background-color: var(--orange-400);
   color: var(--grey-50);
@@ -324,8 +325,8 @@ MAIN MENU TABLET
   .header {
     padding-top: var(--spacing-800);
     padding-bottom: var(--spacing-100);
-    padding-right: var(--spacing-1600);
-    padding-left: var(--spacing-1600);
+    padding-right: var(--spacing-800);
+    padding-left: var(--spacing-800);
     margin-bottom: 0px;
   }
   .toggle {
@@ -370,12 +371,42 @@ MAIN MENU TABLET
     align-items: center;
     gap: var(--spacing-600);
   }
+
+  /* ==========================================================================
+QUESTION MENU TABLET
+=============================================================================*/
+
+  .screen-questions {
+    padding-left: var(--spacing-800);
+    padding-right: var(--spacing-800);
+  }
+
+  .question-section {
+    margin-top: var(--spacing-500)
+  }
+
+  .answer {
+    font-size: 28px;
+  }
+
+  .btn {
+    padding-bottom: 32px;
+    height: 56px;
+    font-size: 28px;
+  }
+  .question {
+    font-size: 36px;
+  }
+
+  .answer-text {
+    font-size: 20px;
+  }
 }
 
-/* ==========================================================================
+@media (min-width: 1440px) {
+  /* ==========================================================================
 MAIN MENU DESKTOP
 =============================================================================*/
-@media (min-width: 1440px) {
   body {
     background-image: url(./assets/images/pattern-background-desktop-light.svg);
     background-size: cover;
@@ -400,4 +431,14 @@ MAIN MENU DESKTOP
   .option {
     min-width: 564px;
   }
+  /* ==========================================================================
+QUESTION MENU DESKTOP
+=============================================================================*/
+.screen-questions {
+  padding-left: var(--spacing-1600);
+  padding-right: var(--spacing-1600);
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-1600);
+}
 }
